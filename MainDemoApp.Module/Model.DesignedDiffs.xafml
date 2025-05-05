@@ -14,7 +14,7 @@
     </ActionToContainerMapping>
   </ActionDesign>
   <BOModel>
-    <Class Name="MainDemoApp.Module.Contact" ObjectCaptionFormat="{0:FullName} from the {0:Department}" />
+    <Class Name="MainDemoApp.Module.Contact" ObjectCaptionFormat="{0:FullName} from the {0:Department}" ImageName="employee1" />
     <Class Name="MainDemoApp.Module.Department" ImageName="BO_Department" />
     <Class Name="MainDemoApp.Module.Position" ImageName="BO_Position" />
   </BOModel>
