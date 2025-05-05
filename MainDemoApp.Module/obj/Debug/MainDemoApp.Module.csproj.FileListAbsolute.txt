@@ -136,3 +136,4 @@ C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module\obj\Debug\MainDemoApp.
 C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module\obj\Debug\MainDemoApp.Module.csproj.AssemblyReference.cache
 C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module\obj\Debug\MainDemoApp.Module.Controllers.ClearContactTasksController.resources
 C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module\obj\Debug\MainDemoApp.Module.Controllers.FindBySubjectController.resources
+C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module\obj\Debug\MainDemoApp.Module.Controllers.PopupNotesController.resources
