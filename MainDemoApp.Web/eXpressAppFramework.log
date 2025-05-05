@@ -26745,3 +26745,456 @@ Loaded assemblies
 								Context.CurrentObject: asdd adsads asdasd
 
 05.05.25 15:50:13.131	qpq33xe4lddmgoq1fckkfjcw	Action 'ClearTasksAction' done
+05.05.25 15:56:12.841	qpq33xe4lddmgoq1fckkfjcw	================================================================================
+05.05.25 15:56:12.843	qpq33xe4lddmgoq1fckkfjcw	Trace Log for /LM/W3SVC/2/ROOT-1-133909215679366323 is started
+05.05.25 15:56:12.844	qpq33xe4lddmgoq1fckkfjcw	================================================================================
+05.05.25 15:56:12.847	qpq33xe4lddmgoq1fckkfjcw	System Environment
+	OS Version: Microsoft Windows NT 10.0.26100.0
+	.Net Framework Versions: v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 19.1.3.0
+	eXpressApp File Version: 19.1.3.0
+
+Application config
+	Modules=
+	ErrorReportEmail=
+	ErrorReportEmailServer=
+	SimpleErrorReportPage=
+	RichErrorReportPage=Error.aspx
+	EnableDiagnosticActions=False
+
+05.05.25 15:56:12.944	qpq33xe4lddmgoq1fckkfjcw		Session: qpq33xe4lddmgoq1fckkfjcw (Timeout: 20)
+05.05.25 15:56:12.946	qpq33xe4lddmgoq1fckkfjcw		User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+05.05.25 15:56:12.995	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+05.05.25 15:56:12.999	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							
+
+05.05.25 15:56:13.008	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+Loaded assemblies
+	A_aaeadb63_d30c_4cbe_9d16_33af8dd6ef50, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	App_global.asax.aj_qkh4i, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\App_global.asax.aj_qkh4i.dll
+	App_Web_bgd1acof, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\App_Web_bgd1acof.dll
+	App_Web_usqg3bmt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\App_Web_usqg3bmt.dll
+	DevExpress.Charts.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Charts.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Charts.v19.1.Core.dll
+	DevExpress.CodeParser.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.CodeParser.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.CodeParser.v19.1.dll
+	DevExpress.Data.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Data.v19.1.dll
+	DevExpress.DataAccess.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.DataAccess.v19.1.dll
+	DevExpress.DataAccess.v19.1.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v19.1.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.DataAccess.v19.1.resources.dll
+	DevExpress.DataAccess.v19.1.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v19.1.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.DataAccess.v19.1.resources.dll
+	DevExpress.DataAccess.v19.1.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v19.1.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.DataAccess.v19.1.resources.dll
+	DevExpress.DataAccess.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.DataAccess.v19.1.resources.dll
+	DevExpress.ExpressApp.Images.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v19.1.dll
+	DevExpress.ExpressApp.Objects.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v19.1.dll
+	DevExpress.ExpressApp.Security.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v19.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v19.1.dll
+	DevExpress.ExpressApp.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v19.1.dll
+	DevExpress.ExpressApp.Validation.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v19.1.dll
+	DevExpress.ExpressApp.Validation.Web.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Web.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Web.v19.1.dll
+	DevExpress.ExpressApp.Web.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Web.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Web.v19.1.dll
+	DevExpress.ExpressApp.Xpo.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v19.1.dll
+	DevExpress.Images.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Images.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Images.v19.1.dll
+	DevExpress.Pdf.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Pdf.v19.1.Core.dll
+	DevExpress.Pdf.v19.1.Core.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v19.1.Core.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.Pdf.v19.1.Core.resources.dll
+	DevExpress.Pdf.v19.1.Core.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v19.1.Core.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.Pdf.v19.1.Core.resources.dll
+	DevExpress.Pdf.v19.1.Core.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v19.1.Core.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.Pdf.v19.1.Core.resources.dll
+	DevExpress.Pdf.v19.1.Core.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v19.1.Core.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.Pdf.v19.1.Core.resources.dll
+	DevExpress.Persistent.Base.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v19.1.dll
+	DevExpress.Persistent.BaseImpl.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v19.1.dll
+	DevExpress.PivotGrid.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.PivotGrid.v19.1.Core.dll
+	DevExpress.PivotGrid.v19.1.Core.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v19.1.Core.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.PivotGrid.v19.1.Core.resources.dll
+	DevExpress.PivotGrid.v19.1.Core.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v19.1.Core.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.PivotGrid.v19.1.Core.resources.dll
+	DevExpress.PivotGrid.v19.1.Core.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v19.1.Core.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.PivotGrid.v19.1.Core.resources.dll
+	DevExpress.PivotGrid.v19.1.Core.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v19.1.Core.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.PivotGrid.v19.1.Core.resources.dll
+	DevExpress.Printing.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Printing.v19.1.Core.dll
+	DevExpress.Sparkline.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Sparkline.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Sparkline.v19.1.Core.dll
+	DevExpress.Sparkline.v19.1.Core.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Sparkline.v19.1.Core.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.Sparkline.v19.1.Core.resources.dll
+	DevExpress.Sparkline.v19.1.Core.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Sparkline.v19.1.Core.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.Sparkline.v19.1.Core.resources.dll
+	DevExpress.Sparkline.v19.1.Core.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Sparkline.v19.1.Core.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.Sparkline.v19.1.Core.resources.dll
+	DevExpress.Sparkline.v19.1.Core.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Sparkline.v19.1.Core.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.Sparkline.v19.1.Core.resources.dll
+	DevExpress.Utils.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Utils.v19.1.dll
+	DevExpress.Utils.v19.1.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.Utils.v19.1.resources.dll
+	DevExpress.Utils.v19.1.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.Utils.v19.1.resources.dll
+	DevExpress.Utils.v19.1.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.Utils.v19.1.resources.dll
+	DevExpress.Utils.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.Utils.v19.1.resources.dll
+	DevExpress.Web.ASPxThemes.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxThemes.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Web.ASPxThemes.v19.1.dll
+	DevExpress.Web.ASPxTreeList.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxTreeList.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Web.ASPxTreeList.v19.1.dll
+	DevExpress.Web.Resources.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.Resources.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Web.Resources.v19.1.dll
+	DevExpress.Web.Resources.v19.1.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.Resources.v19.1.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.Web.Resources.v19.1.resources.dll
+	DevExpress.Web.Resources.v19.1.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.Resources.v19.1.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.Web.Resources.v19.1.resources.dll
+	DevExpress.Web.Resources.v19.1.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.Resources.v19.1.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.Web.Resources.v19.1.resources.dll
+	DevExpress.Web.Resources.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.Resources.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.Web.Resources.v19.1.resources.dll
+	DevExpress.Web.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Web.v19.1.dll
+	DevExpress.Xpo.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Xpo.v19.1.dll
+	DevExpress.XtraCharts.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.XtraCharts.v19.1.dll
+	DevExpress.XtraCharts.v19.1.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v19.1.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.XtraCharts.v19.1.resources.dll
+	DevExpress.XtraCharts.v19.1.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v19.1.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.XtraCharts.v19.1.resources.dll
+	DevExpress.XtraCharts.v19.1.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v19.1.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.XtraCharts.v19.1.resources.dll
+	DevExpress.XtraCharts.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.XtraCharts.v19.1.resources.dll
+	DevExpress.XtraGauges.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGauges.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.XtraGauges.v19.1.Core.dll
+	DevExpress.XtraGauges.v19.1.Core.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGauges.v19.1.Core.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.XtraGauges.v19.1.Core.resources.dll
+	DevExpress.XtraGauges.v19.1.Core.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGauges.v19.1.Core.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.XtraGauges.v19.1.Core.resources.dll
+	DevExpress.XtraGauges.v19.1.Core.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGauges.v19.1.Core.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.XtraGauges.v19.1.Core.resources.dll
+	DevExpress.XtraGauges.v19.1.Core.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGauges.v19.1.Core.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.XtraGauges.v19.1.Core.resources.dll
+	DevExpress.XtraReports.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.XtraReports.v19.1.dll
+	DevExpress.XtraReports.v19.1.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.XtraReports.v19.1.resources.dll
+	DevExpress.XtraReports.v19.1.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.XtraReports.v19.1.resources.dll
+	DevExpress.XtraReports.v19.1.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.XtraReports.v19.1.resources.dll
+	DevExpress.XtraReports.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.XtraReports.v19.1.resources.dll
+	DevExpress.XtraScheduler.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.XtraScheduler.v19.1.Core.dll
+	DevExpress.XtraScheduler.v19.1.Core.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v19.1.Core.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.XtraScheduler.v19.1.Core.resources.dll
+	DevExpress.XtraScheduler.v19.1.Core.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v19.1.Core.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.XtraScheduler.v19.1.Core.resources.dll
+	DevExpress.XtraScheduler.v19.1.Core.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v19.1.Core.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.XtraScheduler.v19.1.Core.resources.dll
+	DevExpress.XtraScheduler.v19.1.Core.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v19.1.Core.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.XtraScheduler.v19.1.Core.resources.dll
+	MainDemoApp.Module, Version=1.0.0.5, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\assembly\dl3\838be5dd\309e04df_b8bddb01\MainDemoApp.Module.dll
+	MainDemoApp.Module.Web, Version=1.0.9256.28682, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\assembly\dl3\47e632d0\9dd94cdf_b8bddb01\MainDemoApp.Module.Web.dll
+	MainDemoApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\assembly\dl3\c5e88287\e0188ddf_b8bddb01\MainDemoApp.Web.dll
+	Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v4.0.dll
+	Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll
+	Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.JScript\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.JScript.dll
+	Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Loader\v4.0_1.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Loader.dll
+	Microsoft.WebTools.BrowserLink.Runtime, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Runtime.dll
+	Microsoft.WebTools.BrowserLink.Tracing, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Tracing.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\SMDiagnostics\v4.0_4.0.0.0__b77a5c561934e089\SMDiagnostics.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.Activities.dll
+	System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll
+	System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.Services.Design\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Services.Design.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll
+	System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.IdentityModel\v4.0_4.0.0.0__b77a5c561934e089\System.IdentityModel.dll
+	System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll
+	System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
+	System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activation\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activation.dll
+	System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activities.dll
+	System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Internals\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Internals.dll
+	System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Web\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Web.dll
+	System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll
+	System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll
+	System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.DynamicData\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.DynamicData.dll
+	System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll
+	System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Mobile\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Mobile.dll
+	System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.RegularExpressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll
+	System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll
+	System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.WorkflowServices\v4.0_4.0.0.0__31bf3856ad364e35\System.WorkflowServices.dll
+	System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll
+05.05.25 15:56:13.240	qpq33xe4lddmgoq1fckkfjcw	SetupModules
+05.05.25 15:56:13.402	qpq33xe4lddmgoq1fckkfjcw	Customize TypesInfo
+05.05.25 15:56:14.664	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+05.05.25 15:56:14.666	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+05.05.25 15:56:14.734	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Logoff completed
+
+05.05.25 15:56:14.742	qpq33xe4lddmgoq1fckkfjcw	Dispose application
+====================
+05.05.25 15:56:14.778	qpq33xe4lddmgoq1fckkfjcw	Initialization ignored.
+05.05.25 15:56:14.781	qpq33xe4lddmgoq1fckkfjcw		Session: qpq33xe4lddmgoq1fckkfjcw (Timeout: 20)
+05.05.25 15:56:14.782	qpq33xe4lddmgoq1fckkfjcw		User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+05.05.25 15:56:14.810	qpq33xe4lddmgoq1fckkfjcw	Application is disposed
+========================
+05.05.25 15:56:14.841	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+05.05.25 15:56:14.872	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							
+
+05.05.25 15:56:14.878	no context	
+
+ shutDownMessage=
+
+ shutdownReason=None
+
+ shutDownStack=
+05.05.25 15:56:14.888	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+Loaded assemblies
+	A_aaeadb63_d30c_4cbe_9d16_33af8dd6ef50, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	App_global.asax.aj_qkh4i, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\App_global.asax.aj_qkh4i.dll
+	App_Web_bgd1acof, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\App_Web_bgd1acof.dll
+	App_Web_usqg3bmt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\App_Web_usqg3bmt.dll
+	DevExpress.Charts.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Charts.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Charts.v19.1.Core.dll
+	DevExpress.CodeParser.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.CodeParser.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.CodeParser.v19.1.dll
+	DevExpress.Data.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Data.v19.1.dll
+	DevExpress.DataAccess.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.DataAccess.v19.1.dll
+	DevExpress.DataAccess.v19.1.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v19.1.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.DataAccess.v19.1.resources.dll
+	DevExpress.DataAccess.v19.1.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v19.1.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.DataAccess.v19.1.resources.dll
+	DevExpress.DataAccess.v19.1.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v19.1.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.DataAccess.v19.1.resources.dll
+	DevExpress.DataAccess.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.DataAccess.v19.1.resources.dll
+	DevExpress.ExpressApp.Images.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v19.1.dll
+	DevExpress.ExpressApp.Objects.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v19.1.dll
+	DevExpress.ExpressApp.Security.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v19.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v19.1.dll
+	DevExpress.ExpressApp.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v19.1.dll
+	DevExpress.ExpressApp.Validation.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v19.1.dll
+	DevExpress.ExpressApp.Validation.Web.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Web.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Web.v19.1.dll
+	DevExpress.ExpressApp.Web.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Web.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Web.v19.1.dll
+	DevExpress.ExpressApp.Xpo.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v19.1.dll
+	DevExpress.Images.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Images.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Images.v19.1.dll
+	DevExpress.Pdf.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Pdf.v19.1.Core.dll
+	DevExpress.Pdf.v19.1.Core.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v19.1.Core.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.Pdf.v19.1.Core.resources.dll
+	DevExpress.Pdf.v19.1.Core.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v19.1.Core.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.Pdf.v19.1.Core.resources.dll
+	DevExpress.Pdf.v19.1.Core.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v19.1.Core.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.Pdf.v19.1.Core.resources.dll
+	DevExpress.Pdf.v19.1.Core.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v19.1.Core.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.Pdf.v19.1.Core.resources.dll
+	DevExpress.Persistent.Base.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v19.1.dll
+	DevExpress.Persistent.BaseImpl.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v19.1.dll
+	DevExpress.PivotGrid.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.PivotGrid.v19.1.Core.dll
+	DevExpress.PivotGrid.v19.1.Core.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v19.1.Core.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.PivotGrid.v19.1.Core.resources.dll
+	DevExpress.PivotGrid.v19.1.Core.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v19.1.Core.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.PivotGrid.v19.1.Core.resources.dll
+	DevExpress.PivotGrid.v19.1.Core.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v19.1.Core.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.PivotGrid.v19.1.Core.resources.dll
+	DevExpress.PivotGrid.v19.1.Core.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v19.1.Core.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.PivotGrid.v19.1.Core.resources.dll
+	DevExpress.Printing.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Printing.v19.1.Core.dll
+	DevExpress.Sparkline.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Sparkline.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Sparkline.v19.1.Core.dll
+	DevExpress.Sparkline.v19.1.Core.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Sparkline.v19.1.Core.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.Sparkline.v19.1.Core.resources.dll
+	DevExpress.Sparkline.v19.1.Core.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Sparkline.v19.1.Core.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.Sparkline.v19.1.Core.resources.dll
+	DevExpress.Sparkline.v19.1.Core.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Sparkline.v19.1.Core.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.Sparkline.v19.1.Core.resources.dll
+	DevExpress.Sparkline.v19.1.Core.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Sparkline.v19.1.Core.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.Sparkline.v19.1.Core.resources.dll
+	DevExpress.Utils.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Utils.v19.1.dll
+	DevExpress.Utils.v19.1.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.Utils.v19.1.resources.dll
+	DevExpress.Utils.v19.1.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.Utils.v19.1.resources.dll
+	DevExpress.Utils.v19.1.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.Utils.v19.1.resources.dll
+	DevExpress.Utils.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.Utils.v19.1.resources.dll
+	DevExpress.Web.ASPxThemes.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxThemes.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Web.ASPxThemes.v19.1.dll
+	DevExpress.Web.ASPxTreeList.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxTreeList.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Web.ASPxTreeList.v19.1.dll
+	DevExpress.Web.Resources.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.Resources.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Web.Resources.v19.1.dll
+	DevExpress.Web.Resources.v19.1.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.Resources.v19.1.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.Web.Resources.v19.1.resources.dll
+	DevExpress.Web.Resources.v19.1.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.Resources.v19.1.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.Web.Resources.v19.1.resources.dll
+	DevExpress.Web.Resources.v19.1.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.Resources.v19.1.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.Web.Resources.v19.1.resources.dll
+	DevExpress.Web.Resources.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.Resources.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.Web.Resources.v19.1.resources.dll
+	DevExpress.Web.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Web.v19.1.dll
+	DevExpress.Xpo.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.Xpo.v19.1.dll
+	DevExpress.XtraCharts.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.XtraCharts.v19.1.dll
+	DevExpress.XtraCharts.v19.1.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v19.1.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.XtraCharts.v19.1.resources.dll
+	DevExpress.XtraCharts.v19.1.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v19.1.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.XtraCharts.v19.1.resources.dll
+	DevExpress.XtraCharts.v19.1.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v19.1.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.XtraCharts.v19.1.resources.dll
+	DevExpress.XtraCharts.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.XtraCharts.v19.1.resources.dll
+	DevExpress.XtraGauges.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGauges.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.XtraGauges.v19.1.Core.dll
+	DevExpress.XtraGauges.v19.1.Core.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGauges.v19.1.Core.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.XtraGauges.v19.1.Core.resources.dll
+	DevExpress.XtraGauges.v19.1.Core.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGauges.v19.1.Core.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.XtraGauges.v19.1.Core.resources.dll
+	DevExpress.XtraGauges.v19.1.Core.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGauges.v19.1.Core.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.XtraGauges.v19.1.Core.resources.dll
+	DevExpress.XtraGauges.v19.1.Core.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGauges.v19.1.Core.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.XtraGauges.v19.1.Core.resources.dll
+	DevExpress.XtraReports.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.XtraReports.v19.1.dll
+	DevExpress.XtraReports.v19.1.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.XtraReports.v19.1.resources.dll
+	DevExpress.XtraReports.v19.1.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.XtraReports.v19.1.resources.dll
+	DevExpress.XtraReports.v19.1.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.XtraReports.v19.1.resources.dll
+	DevExpress.XtraReports.v19.1.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v19.1.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.XtraReports.v19.1.resources.dll
+	DevExpress.XtraScheduler.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v19.1.Core\v4.0_19.1.3.0__b88d1754d700e49a\DevExpress.XtraScheduler.v19.1.Core.dll
+	DevExpress.XtraScheduler.v19.1.Core.resources, Version=19.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v19.1.Core.resources\v4.0_19.1.0.0_de_b88d1754d700e49a\DevExpress.XtraScheduler.v19.1.Core.resources.dll
+	DevExpress.XtraScheduler.v19.1.Core.resources, Version=19.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v19.1.Core.resources\v4.0_19.1.0.0_es_b88d1754d700e49a\DevExpress.XtraScheduler.v19.1.Core.resources.dll
+	DevExpress.XtraScheduler.v19.1.Core.resources, Version=19.1.0.0, Culture=ja, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v19.1.Core.resources\v4.0_19.1.0.0_ja_b88d1754d700e49a\DevExpress.XtraScheduler.v19.1.Core.resources.dll
+	DevExpress.XtraScheduler.v19.1.Core.resources, Version=19.1.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v19.1.Core.resources\v4.0_19.1.0.0_ru_b88d1754d700e49a\DevExpress.XtraScheduler.v19.1.Core.resources.dll
+	f2zcdou1, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	MainDemoApp.Module, Version=1.0.0.5, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\assembly\dl3\838be5dd\309e04df_b8bddb01\MainDemoApp.Module.dll
+	MainDemoApp.Module.Web, Version=1.0.9256.28682, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\assembly\dl3\47e632d0\9dd94cdf_b8bddb01\MainDemoApp.Module.Web.dll
+	MainDemoApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amin\AppData\Local\Temp\Temporary ASP.NET Files\vs\62f16ba4\a2d5ea60\assembly\dl3\c5e88287\e0188ddf_b8bddb01\MainDemoApp.Web.dll
+	Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v4.0.dll
+	Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll
+	Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.JScript\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.JScript.dll
+	Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Loader\v4.0_1.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Loader.dll
+	Microsoft.WebTools.BrowserLink.Runtime, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Runtime.dll
+	Microsoft.WebTools.BrowserLink.Tracing, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Tracing.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\SMDiagnostics\v4.0_4.0.0.0__b77a5c561934e089\SMDiagnostics.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.Activities.dll
+	System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll
+	System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.Services.Design\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Services.Design.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll
+	System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.IdentityModel\v4.0_4.0.0.0__b77a5c561934e089\System.IdentityModel.dll
+	System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll
+	System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
+	System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activation\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activation.dll
+	System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activities.dll
+	System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Internals\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Internals.dll
+	System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Web\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Web.dll
+	System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll
+	System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll
+	System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.DynamicData\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.DynamicData.dll
+	System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll
+	System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Mobile\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Mobile.dll
+	System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.RegularExpressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll
+	System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.WorkflowServices\v4.0_4.0.0.0__31bf3856ad364e35\System.WorkflowServices.dll
+	System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll
+	System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xaml.Hosting\v4.0_4.0.0.0__31bf3856ad364e35\System.Xaml.Hosting.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll
+05.05.25 15:56:14.911	qpq33xe4lddmgoq1fckkfjcw	SetupModules
+05.05.25 15:56:14.917	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+05.05.25 15:56:14.919	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+05.05.25 15:56:14.925	qpq33xe4lddmgoq1fckkfjcw		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 74a3a80f-1a28-4cf7-992a-d02c8e78fdd8
+								Category: Unspecified
+
+05.05.25 15:56:15.141	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+05.05.25 15:56:15.143	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+05.05.25 15:56:15.538	qpq33xe4lddmgoq1fckkfjcw	Generate default Model for Action containers
+05.05.25 15:56:19.438	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+05.05.25 15:56:19.440	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+05.05.25 15:56:19.464	qpq33xe4lddmgoq1fckkfjcw	'Password' property editor: new value is '*******'
+05.05.25 15:56:19.494	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Execute action
+
+05.05.25 15:56:19.496	qpq33xe4lddmgoq1fckkfjcw		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.Web.WebLogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+05.05.25 15:56:19.499	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Execute action
+
+05.05.25 15:56:19.500	qpq33xe4lddmgoq1fckkfjcw		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 74a3a80f-1a28-4cf7-992a-d02c8e78fdd8
+								Category: Unspecified
+
+05.05.25 15:56:19.504	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Start logon process
+
+05.05.25 15:56:19.507	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+05.05.25 15:56:19.510	qpq33xe4lddmgoq1fckkfjcw		ConnectionString: Data Source=.;Initial Catalog=MainDemoApp;User ID=sa;XpoDataStorePool=True;
+05.05.25 15:56:19.512	qpq33xe4lddmgoq1fckkfjcw		ConnectionString: 
+05.05.25 15:56:20.227	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							UpdateDB
+
+05.05.25 15:56:20.750	qpq33xe4lddmgoq1fckkfjcw		ConnectionString: Data Source=.;Initial Catalog=MainDemoApp;User ID=sa;XpoDataStorePool=True;
+05.05.25 15:56:22.164	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Logon successful
+
+05.05.25 15:56:22.349	qpq33xe4lddmgoq1fckkfjcw	The FormsAuthentication timeout is less than the ASP.NET Session timeout: '10' and '20'. The ASP.NET Session timeout is used for FormsAuthentication.
+05.05.25 15:56:22.351	qpq33xe4lddmgoq1fckkfjcw		CurrentUserName: Admin
+05.05.25 15:56:22.352	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Logon completed
+
+05.05.25 15:56:22.356	qpq33xe4lddmgoq1fckkfjcw	Action '74a3a80f-1a28-4cf7-992a-d02c8e78fdd8' done
+05.05.25 15:56:22.366	qpq33xe4lddmgoq1fckkfjcw	Action 'Logon' done
+05.05.25 15:56:22.417	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+05.05.25 15:56:22.419	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+05.05.25 15:56:22.492	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+05.05.25 15:56:22.704	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Execute action
+
+05.05.25 15:56:22.706	qpq33xe4lddmgoq1fckkfjcw		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.05.25 15:56:22.708	qpq33xe4lddmgoq1fckkfjcw		SelectedItem: Contact
+05.05.25 15:56:24.050	qpq33xe4lddmgoq1fckkfjcw	Action 'ShowNavigationItem' done
+05.05.25 15:56:33.874	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+05.05.25 15:56:33.875	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+05.05.25 15:56:33.907	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Execute action
+
+05.05.25 15:56:33.909	qpq33xe4lddmgoq1fckkfjcw		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: asdd adsads asdasd
+
+05.05.25 15:56:34.306	qpq33xe4lddmgoq1fckkfjcw	Action 'ListViewShowObject' done
+05.05.25 15:56:42.200	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+05.05.25 15:56:42.202	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+05.05.25 15:56:42.227	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Execute action
+
+05.05.25 15:56:42.228	qpq33xe4lddmgoq1fckkfjcw		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebNewObjectViewController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: asdd adsads asdasd
+
+05.05.25 15:56:42.230	qpq33xe4lddmgoq1fckkfjcw		SelectedItem: Contact
+05.05.25 15:56:42.519	qpq33xe4lddmgoq1fckkfjcw	Action 'New' done
+05.05.25 15:57:34.919	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+05.05.25 15:57:34.921	qpq33xe4lddmgoq1fckkfjcw		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+05.05.25 15:57:35.061	qpq33xe4lddmgoq1fckkfjcw	'Department' property editor: new value is 'Dev Dev'
+05.05.25 15:57:35.118	qpq33xe4lddmgoq1fckkfjcw	'FirstName' property editor: new value is 'Mohammad'
+05.05.25 15:57:35.121	qpq33xe4lddmgoq1fckkfjcw	'LastName' property editor: new value is 'Behrozpor'
+05.05.25 15:57:35.123	qpq33xe4lddmgoq1fckkfjcw	'MiddleName' property editor: new value is 'Amin'
+05.05.25 15:57:35.125	qpq33xe4lddmgoq1fckkfjcw	'Birthday' property editor: new value is '5/5/2025 12:00:00 AM'
+05.05.25 15:57:35.128	qpq33xe4lddmgoq1fckkfjcw	'Email' property editor: new value is 'aminbehrozpor1@gmail.com'
+05.05.25 15:57:35.149	qpq33xe4lddmgoq1fckkfjcw	--------------------------------------------------------------------------------
+							Execute action
+
+05.05.25 15:57:35.151	qpq33xe4lddmgoq1fckkfjcw		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebModificationsController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Mohammad Amin Behrozpor
+
+05.05.25 15:57:35.294	qpq33xe4lddmgoq1fckkfjcw	Action 'Save' done
