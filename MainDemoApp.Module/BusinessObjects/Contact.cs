@@ -150,11 +150,21 @@ namespace MainDemoApp.Module
             }
         }
 
-/*        public override void AfterConstruction()
+              /*public override void AfterConstruction()
+                {
+                    base.AfterConstruction();
+                    Priority = Priority.Normal;
+                }*/
+
+        [Action(ToolTip = "Postpone the task to the next day")]
+        public void Postpone()
         {
-            base.AfterConstruction();
-            Priority = Priority.Normal;
-        }*/
+            if (DueDate == DateTime.MinValue)
+            {
+                DueDate = DateTime.Now;
+            }
+            DueDate = DueDate + TimeSpan.FromDays(1);
+        }
 
         [Association("Contact-DemoTask")]
         public XPCollection<Contact> Contacts
