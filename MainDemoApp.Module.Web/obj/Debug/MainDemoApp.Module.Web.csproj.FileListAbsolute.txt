@@ -159,3 +159,6 @@ C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module.Web\obj\Debug\MainDemo
 C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module.Web\obj\Debug\MainDemoApp.Module.Web.csproj.CopyComplete
 C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module.Web\obj\Debug\MainDemoApp.Module.Web.dll
 C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module.Web\obj\Debug\MainDemoApp.Module.Web.pdb
+C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module.Web\obj\Debug\MainDemoApp.Module.Web.Controllers.WebAlternatingRowsController.resources
+C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module.Web\obj\Debug\MainDemoApp.Module.Web.csproj.GenerateResource.cache
+C:\Users\Amin\source\repos\MainDemoApp\MainDemoApp.Module.Web\obj\Debug\MainDemoApp.Module.Web.dll.licenses
