@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="MainDemoApp">
   <ActionDesign>
+    <Actions>
+      <Action Id="ClearTasksAction" ToolTip="Clear the Current Contact task!" Caption="Clear Tasks" />
+    </Actions>
     <ActionToContainerMapping>
       <ActionContainer Id="RecordEdit">
         <ActionLink ActionId="ClearTasksAction" IsNewNode="True" />
