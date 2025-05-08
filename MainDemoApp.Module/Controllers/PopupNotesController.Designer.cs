@@ -47,7 +47,7 @@ namespace MainDemoApp.Module.Controllers
             // PopupNotesController
             // 
             this.Actions.Add(this.ShowNotesAction);
-            this.TargetObjectType = typeof(MainDemoApp.Module.DemoTask);
+            this.TargetObjectType = typeof(MainDemoApp.Module.BusinessObjects.DemoTask);
             this.TargetViewType = DevExpress.ExpressApp.ViewType.DetailView;
             this.TypeOfView = typeof(DevExpress.ExpressApp.DetailView);
 

@@ -36,9 +36,14 @@
             this.AdditionalExportedTypes.Add(typeof(DevExpress.Persistent.BaseImpl.Resource));
             this.AdditionalExportedTypes.Add(typeof(DevExpress.ExpressApp.SystemModule.Notifications.PostponeTime));
             this.AdditionalExportedTypes.Add(typeof(DevExpress.Persistent.BaseImpl.Note));
+            this.AdditionalExportedTypes.Add(typeof(DevExpress.Persistent.BaseImpl.Analysis));
+            this.AdditionalExportedTypes.Add(typeof(DevExpress.Persistent.BaseImpl.ReportDataV2));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.SystemModule.SystemModule));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Validation.ValidationModule));
+            this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.ViewVariantsModule.ViewVariantsModule));
+            this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.AuditTrail.AuditTrailModule));
+            this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.ReportsV2.ReportsModuleV2));
 
 		}
 

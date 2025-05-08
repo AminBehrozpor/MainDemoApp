@@ -2,6 +2,7 @@
 using DevExpress.ExpressApp.Actions;
 using DevExpress.ExpressApp.Editors;
 using DevExpress.Persistent.BaseImpl;
+using MainDemoApp.Module.BusinessObjects;
 using System;
 
 namespace MainDemoApp.Module.Controllers

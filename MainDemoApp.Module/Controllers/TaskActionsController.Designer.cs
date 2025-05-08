@@ -45,7 +45,7 @@ namespace MainDemoApp.Module.Controllers
             // TaskActionsController
             // 
             this.Actions.Add(this.SetTaskAction);
-            this.TargetObjectType = typeof(MainDemoApp.Module.DemoTask);
+            this.TargetObjectType = typeof(MainDemoApp.Module.BusinessObjects.DemoTask);
 
         }
 
