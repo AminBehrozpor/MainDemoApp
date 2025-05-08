@@ -45,7 +45,7 @@ namespace MainDemoApp.Module.Controllers
             // FindBySubjectController
             // 
             this.Actions.Add(this.FindBySubjectAction);
-            this.TargetObjectType = typeof(MainDemoApp.Module.DemoTask);
+            this.TargetObjectType = typeof(MainDemoApp.Module.BusinessObjects.DemoTask);
             this.TargetViewNesting = DevExpress.ExpressApp.Nesting.Root;
             this.TargetViewType = DevExpress.ExpressApp.ViewType.ListView;
             this.TypeOfView = typeof(DevExpress.ExpressApp.ListView);

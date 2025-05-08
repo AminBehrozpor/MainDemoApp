@@ -5,6 +5,9 @@ using DevExpress.Persistent.Base.General;
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.Actions;
 using System;
+using MainDemoApp.Module.BusinessObjects;
+using static MainDemoApp.Module.BusinessObjects.DemoTask;
+using DevExpress.ExpressApp.Security;
 
 namespace MainDemoApp.Module.Controllers
 {
@@ -20,7 +23,7 @@ namespace MainDemoApp.Module.Controllers
             setPriorityItem =
                new ChoiceActionItem(CaptionHelper.GetMemberCaption(typeof(DemoTask), "Priority"), null);
             SetTaskAction.Items.Add(setPriorityItem);
-            FillItemWithEnumValues(setPriorityItem, typeof(Priority));
+            FillItemWithEnumValues(setPriorityItem, typeof(Priority_));
             setStatusItem =
                new ChoiceActionItem(CaptionHelper.GetMemberCaption(typeof(DemoTask), "Status"), null);
             SetTaskAction.Items.Add(setStatusItem);
@@ -46,7 +49,7 @@ namespace MainDemoApp.Module.Controllers
                 foreach (Object obj in objectsToProcess)
                 {
                     DemoTask objInNewObjectSpace = (DemoTask)objectSpace.GetObject(obj);
-                    objInNewObjectSpace.Priority = (Priority)e.SelectedChoiceActionItem.Data;
+                    objInNewObjectSpace.Priority = (Priority_)e.SelectedChoiceActionItem.Data;
                 }
             }
             else
@@ -67,6 +70,31 @@ namespace MainDemoApp.Module.Controllers
                 objectSpace.CommitChanges();
                 View.ObjectSpace.Refresh();
             }
+        }
+        private void TaskActionsController_Activated(object sender, EventArgs e)
+        {
+            View.SelectionChanged += new EventHandler(View_SelectionChanged);
+            UpdateSetTaskActionState();
+        }
+        void View_SelectionChanged(object sender, EventArgs e)
+        {
+            UpdateSetTaskActionState();
+        }
+        private void UpdateSetTaskActionState()
+        {
+            bool isGranted = true;
+            foreach (object selectedObject in View.SelectedObjects)
+            {
+                bool isPriorityGranted = SecuritySystem.IsGranted(new PermissionRequest(ObjectSpace,
+                typeof(DemoTask), SecurityOperations.Write, selectedObject, "Priority"));
+                bool isStatusGranted = SecuritySystem.IsGranted(new PermissionRequest(ObjectSpace,
+                typeof(DemoTask), SecurityOperations.Write, selectedObject, "Status"));
+                if (!isPriorityGranted || !isStatusGranted)
+                {
+                    isGranted = false;
+                }
+            }
+            SetTaskAction.Enabled.SetItemValue("SecurityAllowance", isGranted);
         }
     }
 }

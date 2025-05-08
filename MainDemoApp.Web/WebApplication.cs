@@ -16,9 +16,18 @@ namespace MainDemoApp.Web {
         private MainDemoApp.Module.Web.MainDemoAppAspNetModule module4;
         private DevExpress.ExpressApp.Security.SecurityModule securityModule1;
         private DevExpress.ExpressApp.Security.SecurityStrategyComplex securityStrategyComplex1;
-        private DevExpress.ExpressApp.Security.AuthenticationStandard authenticationStandard1;
         private DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule objectsModule;
         private DevExpress.ExpressApp.Validation.ValidationModule validationModule;
+        private AuthenticationStandard authenticationStandard2;
+        private DevExpress.ExpressApp.ViewVariantsModule.ViewVariantsModule viewVariantsModule1;
+        private DevExpress.ExpressApp.AuditTrail.AuditTrailModule auditTrailModule1;
+        private DevExpress.ExpressApp.ReportsV2.ReportsModuleV2 reportsModuleV21;
+        private DevExpress.ExpressApp.FileAttachments.Web.FileAttachmentsAspNetModule fileAttachmentsAspNetModule1;
+        private DevExpress.ExpressApp.PivotChart.PivotChartModuleBase pivotChartModuleBase1;
+        private DevExpress.ExpressApp.PivotChart.Web.PivotChartAspNetModule pivotChartAspNetModule1;
+        private DevExpress.ExpressApp.ReportsV2.Web.ReportsAspNetModuleV2 reportsAspNetModuleV21;
+        private DevExpress.ExpressApp.Scheduler.SchedulerModuleBase schedulerModuleBase1;
+        private DevExpress.ExpressApp.Scheduler.Web.SchedulerAspNetModule schedulerAspNetModule1;
         private DevExpress.ExpressApp.Validation.Web.ValidationAspNetModule validationAspNetModule;
 
         #region Default XAF configuration options (https://www.devexpress.com/kb=T501418)
@@ -91,26 +100,51 @@ namespace MainDemoApp.Web {
             this.module4 = new MainDemoApp.Module.Web.MainDemoAppAspNetModule();
             this.securityModule1 = new DevExpress.ExpressApp.Security.SecurityModule();
             this.securityStrategyComplex1 = new DevExpress.ExpressApp.Security.SecurityStrategyComplex();
-            this.securityStrategyComplex1.SupportNavigationPermissionsForTypes = false;
-            this.authenticationStandard1 = new DevExpress.ExpressApp.Security.AuthenticationStandard();
             this.objectsModule = new DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule();
             this.validationModule = new DevExpress.ExpressApp.Validation.ValidationModule();
             this.validationAspNetModule = new DevExpress.ExpressApp.Validation.Web.ValidationAspNetModule();
+            this.viewVariantsModule1 = new DevExpress.ExpressApp.ViewVariantsModule.ViewVariantsModule();
+            this.auditTrailModule1 = new DevExpress.ExpressApp.AuditTrail.AuditTrailModule();
+            this.reportsModuleV21 = new DevExpress.ExpressApp.ReportsV2.ReportsModuleV2();
+            this.fileAttachmentsAspNetModule1 = new DevExpress.ExpressApp.FileAttachments.Web.FileAttachmentsAspNetModule();
+            this.pivotChartModuleBase1 = new DevExpress.ExpressApp.PivotChart.PivotChartModuleBase();
+            this.pivotChartAspNetModule1 = new DevExpress.ExpressApp.PivotChart.Web.PivotChartAspNetModule();
+            this.reportsAspNetModuleV21 = new DevExpress.ExpressApp.ReportsV2.Web.ReportsAspNetModuleV2();
+            this.schedulerModuleBase1 = new DevExpress.ExpressApp.Scheduler.SchedulerModuleBase();
+            this.schedulerAspNetModule1 = new DevExpress.ExpressApp.Scheduler.Web.SchedulerAspNetModule();
+            this.authenticationStandard2 = new DevExpress.ExpressApp.Security.AuthenticationStandard();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // securityStrategyComplex1
             // 
-            this.securityStrategyComplex1.Authentication = this.authenticationStandard1;
+            this.securityStrategyComplex1.AllowAnonymousAccess = false;
+            this.securityStrategyComplex1.Authentication = this.authenticationStandard2;
             this.securityStrategyComplex1.RoleType = typeof(DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole);
+            this.securityStrategyComplex1.SupportNavigationPermissionsForTypes = false;
             this.securityStrategyComplex1.UserType = typeof(DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser);
             // 
-            // securityModule1
+            // validationModule
             // 
-            this.securityModule1.UserType = typeof(DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser);
+            this.validationModule.AllowValidationDetailsAccess = true;
+            this.validationModule.IgnoreWarningAndInformationRules = false;
             // 
-            // authenticationStandard1
+            // auditTrailModule1
             // 
-            this.authenticationStandard1.LogonParametersType = typeof(DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters);
+            this.auditTrailModule1.AuditDataItemPersistentType = typeof(DevExpress.Persistent.BaseImpl.AuditDataItemPersistent);
+            // 
+            // reportsModuleV21
+            // 
+            this.reportsModuleV21.EnableInplaceReports = true;
+            this.reportsModuleV21.ReportDataType = typeof(DevExpress.Persistent.BaseImpl.ReportDataV2);
+            // 
+            // pivotChartModuleBase1
+            // 
+            this.pivotChartModuleBase1.DataAccessMode = DevExpress.ExpressApp.CollectionSourceDataAccessMode.Client;
+            this.pivotChartModuleBase1.ShowAdditionalNavigation = false;
+            // 
+            // authenticationStandard2
+            // 
+            this.authenticationStandard2.LogonParametersType = typeof(DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters);
             // 
             // MainDemoAppAspNetApplication
             // 
@@ -118,13 +152,22 @@ namespace MainDemoApp.Web {
             this.CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;
             this.Modules.Add(this.module1);
             this.Modules.Add(this.module2);
+            this.Modules.Add(this.objectsModule);
+            this.Modules.Add(this.validationModule);
+            this.Modules.Add(this.viewVariantsModule1);
+            this.Modules.Add(this.auditTrailModule1);
+            this.Modules.Add(this.reportsModuleV21);
             this.Modules.Add(this.module3);
+            this.Modules.Add(this.validationAspNetModule);
+            this.Modules.Add(this.fileAttachmentsAspNetModule1);
+            this.Modules.Add(this.pivotChartModuleBase1);
+            this.Modules.Add(this.pivotChartAspNetModule1);
+            this.Modules.Add(this.reportsAspNetModuleV21);
+            this.Modules.Add(this.schedulerModuleBase1);
+            this.Modules.Add(this.schedulerAspNetModule1);
             this.Modules.Add(this.module4);
             this.Modules.Add(this.securityModule1);
             this.Security = this.securityStrategyComplex1;
-            this.Modules.Add(this.objectsModule);
-            this.Modules.Add(this.validationModule);
-            this.Modules.Add(this.validationAspNetModule);
             this.DatabaseVersionMismatch += new System.EventHandler<DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs>(this.MainDemoAppAspNetApplication_DatabaseVersionMismatch);
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 

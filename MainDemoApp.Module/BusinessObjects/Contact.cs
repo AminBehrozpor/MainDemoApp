@@ -6,6 +6,7 @@ using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
 using DevExpress.Xpo;
+using MainDemoApp.Module.BusinessObjects;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -36,8 +37,8 @@ namespace MainDemoApp.Module
             get { return spouseName; }
             set { SetPropertyValue("SpouseName", ref spouseName, value); }
         }
-        private TitleOfCourtesy titleOfCourtesy;
-        public TitleOfCourtesy TitleOfCourtesy
+        private TitleOfCourtesy_ titleOfCourtesy;
+        public TitleOfCourtesy_ TitleOfCourtesy
         {
             get { return titleOfCourtesy; }
             set { SetPropertyValue("TitleOfCourtesy", ref titleOfCourtesy, value); }
@@ -57,14 +58,27 @@ namespace MainDemoApp.Module
         }
 
         private Department department;
-        [Association("Department-Contacts")] 
+        [Association("Department-Contacts")]
+        [ImmediatePostData]
         public Department Department
         {
             get { return department; }
-            set { SetPropertyValue("Department", ref department, value); }
+            set
+            {
+                SetPropertyValue("Department", ref department, value);
+                if (!IsLoading)
+                {
+                    Position = null;
+                    if (Manager != null && Manager.Department != value)
+                    {
+                        Manager = null;
+                    }
+                }
+            }
         }
 
         private Position position;
+        [Association("position-Contacts")]
         public Position Position
         {
             get { return position; }
@@ -72,8 +86,8 @@ namespace MainDemoApp.Module
         }
 
         private Contact manager;
-        [DataSourceProperty("Department.Contacts")]
-
+/*        [DataSourceProperty("Department.Contacts")]
+*/
         public Contact Manager
         {
             get { return manager; }
@@ -89,99 +103,19 @@ namespace MainDemoApp.Module
             }
         }
 
-
-    }
-    public enum TitleOfCourtesy { Dr, Miss, Mr, Mrs, Ms };
-
-    [DefaultClassOptions]
-    [System.ComponentModel.DefaultProperty("Title")]
-    public class Department : BaseObject
-    {
-        public Department(Session session) : base(session) { }
-
-        private string title;
-        public string Title
-        {
-            get { return title; }
-            set { SetPropertyValue("Title", ref title, value); }
-        }
-        private string office;
-        public string Office
-        {
-            get { return office; }
-            set { SetPropertyValue("Office", ref office, value); }
-        }
-
-        [Association("Department-Contacts")]
-        public XPCollection<Contact> Contacts
+        private XPCollection<AuditDataItemPersistent> changeHistory;
+        [CollectionOperationSet(AllowAdd = false, AllowRemove = false)]
+        public XPCollection<AuditDataItemPersistent> ChangeHistory
         {
             get
             {
-                return GetCollection<Contact>("Contacts");
-            }
-        }
-    }
-    [DefaultClassOptions]
-    [System.ComponentModel.DefaultProperty("Title")]
-    public class Position : BaseObject
-    {
-        public Position(Session session) : base(session) { }
-        private string title;
-        [RuleRequiredField(DefaultContexts.Save)]
-        public string Title
-        {
-            get { return title; }
-            set { SetPropertyValue("Title", ref title, value); }
-        }
-    }
-
-    [DefaultClassOptions]
-    [ModelDefault("Caption", "Task")]
-    public class DemoTask : Task
-    {
-        public DemoTask(Session session) : base(session) { }
-        private Priority priority;
-        public Priority Priority
-        {
-            get { return priority; }
-            set
-            {
-                SetPropertyValue("Priority", ref priority, value);
-            }
-        }
-
-              /*public override void AfterConstruction()
+                if (changeHistory == null)
                 {
-                    base.AfterConstruction();
-                    Priority = Priority.Normal;
-                }*/
-
-        [Action(ToolTip = "Postpone the task to the next day")]
-        public void Postpone()
-        {
-            if (DueDate == DateTime.MinValue)
-            {
-                DueDate = DateTime.Now;
-            }
-            DueDate = DueDate + TimeSpan.FromDays(1);
-        }
-
-        [Association("Contact-DemoTask")]
-        public XPCollection<Contact> Contacts
-        {
-            get
-            {
-                return GetCollection<Contact>("Contacts");
+                    changeHistory = AuditedObjectWeakReference.GetAuditTrail(Session, this);
+                }
+                return changeHistory;
             }
         }
     }
-    public enum Priority
-    {
-        [ImageName("State_Priority_Low")]
-        Low = 0,
-        [ImageName("State_Priority_Normal")]
-        Normal = 1,
-        [ImageName("State_Priority_High")]
-        High = 2
-    }
+    public enum TitleOfCourtesy_ { Dr, Miss, Mr, Mrs, Ms };
 }
